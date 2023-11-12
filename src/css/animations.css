@@ -1,0 +1,41 @@
+@keyframes global {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes loading {
+  from {width: 0%;}
+  to {width: 100%;}
+}
+
+@keyframes openModal {
+  from {
+    top: 60%;
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    opacity: 1;
+  }
+}
+
+@keyframes closeModal {
+  from {
+    top: 50%;
+    opacity: 1;
+  }
+  to {
+    top: 60%;
+    opacity: 0;
+  }
+}
+
+@keyframes switchModalOff {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes switchModalOn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

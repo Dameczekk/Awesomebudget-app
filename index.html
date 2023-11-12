@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/pics/mainIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/animations.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>new app</title>
+  </head>
+  <body>
+    <div id="modals">
+
+    </div>
+    <main>
+      <aside id="sideBar">
+        <div id="title">
+          <img src="assets/images/pics/logo.png" alt="Logo">
+          <div>
+            <h1>AwesomeBudget</h1>
+            <span>After remake</span>
+          </div>
+        </div>
+        <div id="buttons">
+          <button class="button activeSection" id="overviewButton">
+            <img src="assets/images/icons/overview.png" alt="Overview icon">
+            <span>Overview</span>
+          </button>
+          <button class="button" id="analyticsButton">
+            <img src="assets/images/icons/analytics.png" alt="Analytics icon">
+            <span>Analytics</span>
+          </button>
+          <button class="button" id="wishlistButton">
+            <img src="assets/images/icons/list.png" alt="List icon">
+            <span>To buy</span>
+          </button>
+        </div>
+      </aside>
+      <div id="dashboard">
+        <nav>
+          <button id="menuButton"><img src="assets/images/icons/menu.png" alt="Menu icon"></button>
+        </nav>
+        <section id="s1">
+          <div class="container">
+            <div id="card0" class="card">
+              <div>
+                <h1>Saldo</h1>
+                <h2>PLN 0,00</h2>
+              </div>
+              <div class="comment">
+                <h3>Without changes</h3>
+                <img class="arrowComment" src="assets/images/pics/change.png" alt="Arrow icon">
+              </div>
+            </div>
+            <div id="card1" class="card">
+              <div>
+                <h1>Revenues today</h1>
+                <h2>PLN 0,00</h2>
+              </div>
+              <div class="comment">
+                <h3>Without changes</h3>
+                <img class="arrowComment" src="assets/images/pics/change.png" alt="Arrow icon">
+              </div>
+            </div>
+            <div id="card2" class="card">
+              <div>
+                <h1>Expenses today</h1>
+                <h2>PLN 0,00</h2>
+              </div>
+              <div class="comment">
+                <h3>Without changes</h3>
+                <img class="arrowComment" src="assets/images/pics/change.png" alt="Arrow icon">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div id="overlay"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
+    <script src="src/js/main.js"></script>
+    <script src="src/js/security.js"></script>
+    <script src="src/js/charts.js"></script>
+  </body>
+</html>
